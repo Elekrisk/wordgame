@@ -1,0 +1,10 @@
+[package]
+name = "saol-scraper"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+reqwest = "0.12"
+scraper = "0.19"
+tokio = { version = "1", features = ["full"] }
+anyhow = "1"
